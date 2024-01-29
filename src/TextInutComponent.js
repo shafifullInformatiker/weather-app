@@ -74,7 +74,7 @@ function TextInputComponent({ onDataFromChild, onDataLocation }) {
               console.log([]);
               }else{
               setInputString( prevState =>({...prevState, city:result.features[0].properties.city, country:result.features[0].properties.country, entryMethode:"gps", inputString :""})); 
-              
+              onDataLocation({city:result.features[0].properties.city, country:result.features[0].properties.country});
               }
             
             }) .catch(error => console.log('error', error));
