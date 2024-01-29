@@ -2,7 +2,7 @@ import {React, useState, useEffect} from 'react';
 import './App.css';
 import locationIcon from './location.png'
 import TextInputComponent from './TextInutComponent';
-import Weather from './Weather.js';
+import Weather from './WeatherComponent';
 import WeatherData from './WeatherData';
 import InfoBoard from './InfoBoard';
 

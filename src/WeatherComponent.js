@@ -1,5 +1,5 @@
 import {React, useState, useEffect} from 'react';
-import './weather.css';
+import './Weather.css';
 import locationIcon from './location.png'
 import cloud from './cloud.png'
 import sun from './sun.png'
@@ -10,7 +10,7 @@ import rain from './rain.png'
 
 
 
-function Weather(props){
+function WeatherComponent(props){
 
     let skyCondition = {
         sun:false,
@@ -168,4 +168,4 @@ function Weather(props){
   );
 }
 
-export default Weather;
+export default WeatherComponent;
