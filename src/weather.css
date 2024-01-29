@@ -1,0 +1,1018 @@
+/* @keyframes translateAnimation {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  .translate1 {
+    animation: translateAnimation 1s ease-in-out forwards;
+  }
+
+
+  @keyframes translateAnimation2 {
+    from {
+      transform: translateX(400%);
+    }
+    to {
+      transform: translateX(260%);
+    }
+  }
+  
+  .translate2 {
+    animation: translateAnimation2 1s ease-in-out forwards;
+  }
+
+  @keyframes translateAnimation3 {
+    from {
+      transform: translatey(-100%);
+      
+    }
+    to {
+      transform: translatey(0%);
+      
+    }
+  }
+  
+  
+  .translate3 {
+    animation: translateAnimation3 1s ease-in-out forwards;
+    margin-left: 35%;
+  }
+
+  .translate1, .translate2, .translate3{
+    position: absolute;
+    width: 500px;
+  } */
+
+
+
+
+
+  .weather img {
+    position: absolute;
+    width: 300px;
+    margin-top: -200px;
+    z-index: 2;
+  }
+  .weather p{
+    z-index: 4;
+    position: relative;
+  }
+  .translate1{
+    left: 200px;
+  }
+  .translate2{
+    left: 300px;
+  }
+  .translate3{
+    left: 500px;
+  }
+  .translate4{
+    left: 600px;
+  }
+  .translate3{
+    left: 700px;
+  }
+  .translate5{
+    left: 800px;
+  }
+  .translate6{
+    left: 900px;
+  }
+  .translate7{
+    left: 1200;
+  }
+  .translate8{
+    left: 1000px;
+  }
+  .translate9{
+    left: 1100px;
+  }
+  .translate10{
+    left: 1000px;
+  }
+.sunTranslate{
+    left: 50px;
+    
+}
+#sun{
+    margin-top: -350px;
+}
+
+
+
+
+  @keyframes sunTranslateAnimationy {
+    from {
+      transform:translate(0%,0%) rotate(0deg);
+    }
+    to {
+      transform:translate(0%,80%) rotate(0deg);
+    }
+  }
+
+  @keyframes sunTranslateAnimationx {
+    0% {
+        transform:translate(0%,80%) rotate(0deg) ;
+    }
+    50% { 
+        transform:translate(0%,80%) rotate(160deg) ;
+      }
+    100%{
+        transform:translate(0%,80%) rotate(360deg) ; 
+      }
+  }
+
+
+  .sunFadeIn1{
+    animation: sunTranslateAnimationy 0.5s ease-in-out forwards;
+    
+  }
+  .sunFadeIn2{
+    animation: sunTranslateAnimationx 50s ease-in-out infinite;
+    
+  }
+
+
+
+
+
+
+
+  @keyframes firstCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,100%);
+    }
+  }
+  @keyframes firstCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,100%);
+    }
+    50% {
+      transform: translate(100%,100%);
+    }
+    100% {
+        transform: translate(0%,100%);
+      }
+  }
+  .firstCloudFadeIn1{
+    animation: firstCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .firstCloudFadeIn2{
+    animation: firstCloudTranslateAnimationx 9s ease-in-out infinite;
+  }
+
+
+
+
+
+
+
+  @keyframes secondCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,120%);
+    }
+  }
+  @keyframes secondCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,120%);
+    }
+    50% {
+      transform: translate(-50%,120%);
+    }
+    100% {
+        transform: translate(0%,120%);
+      }
+  }
+  .secondCloudFadeIn1{
+    animation: secondCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .secondCloudFadeIn2{
+    animation: secondCloudTranslateAnimationx 9s ease-in-out infinite;
+  }
+
+
+
+  @keyframes thirdCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,150%);
+    }
+  }
+  @keyframes thirdCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,150%);
+    }
+    50% {
+      transform: translate(90%,150%);
+    }
+    100% {
+        transform: translate(0%,150%);
+      }
+  }
+  .thirdCloudFadeIn1{
+    animation: thirdCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .thirdCloudFadeIn2{
+    animation: thirdCloudTranslateAnimationx 9s ease-in-out infinite;
+  }
+
+
+
+
+
+
+
+  @keyframes fourthCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,90%);
+    }
+  }
+  @keyframes fourthCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,90%);
+    }
+    50% {
+      transform: translate(130%,90%);
+    }
+    100% {
+        transform: translate(0%,90%);
+      }
+  }
+  .fourthCloudFadeIn1{
+    animation: fourthCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .fourthCloudFadeIn2{
+    animation: fourthCloudTranslateAnimationx 9s ease-in-out infinite;
+  }
+
+
+
+
+  @keyframes fifthhCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,130%);
+    }
+  }
+  @keyframes fifthCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,130%);
+    }
+    50% {
+      transform: translate(-50%,130%);
+    }
+    100% {
+        transform: translate(0%,130%);
+      }
+  }
+  .fifthCloudFadeIn1{
+    animation: fifthCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .fifthCloudFadeIn2{
+    animation: fifthCloudTranslateAnimationx 9s ease-in-out infinite;
+  }
+
+
+
+
+
+
+
+  @keyframes sixthCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,80%);
+    }
+  }
+  @keyframes sixthCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,80%);
+    }
+    50% {
+      transform: translate(150%,80%);
+    }
+    100% {
+        transform: translate(0%,80%);
+      }
+  }
+  .sixthCloudFadeIn1{
+    animation: sixthCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .sixthCloudFadeIn2{
+    animation: sixthCloudTranslateAnimationx 15s ease-in-out infinite;
+  }
+
+
+
+
+  @keyframes seventhCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,150%);
+    }
+  }
+  @keyframes seventhCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,150%);
+    }
+    50% {
+      transform: translate(50%,150%);
+    }
+    100% {
+        transform: translate(0%,150%);
+      }
+  }
+  .seventhCloudFadeIn1{
+    animation: sixthCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .seventhCloudFadeIn2{
+    animation: sixthCloudTranslateAnimationx 9s ease-in-out infinite;
+  }
+
+
+
+
+
+
+  @keyframes eightCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,125%);
+    }
+  }
+  @keyframes eightCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,125%);
+    }
+    50% {
+      transform: translate(50%,125%);
+    }
+    100% {
+        transform: translate(0%,125%);
+      }
+  }
+  .eightCloudFadeIn1{
+    animation: eightCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .eightCloudFadeIn2{
+    animation: eightCloudTranslateAnimationx 9s ease-in-out infinite;
+  }
+
+
+
+
+
+
+  @keyframes ninthCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,140%);
+    }
+  }
+  @keyframes ninthCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,140%);
+    }
+    50% {
+      transform: translate(100%,140%);
+    }
+    100% {
+        transform: translate(0%,140%);
+      }
+  }
+  .ninthCloudFadeIn1{
+    animation: ninthCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .ninthCloudFadeIn2{
+    animation: ninthCloudTranslateAnimationx 9s ease-in-out infinite;
+  }
+
+
+
+
+
+
+  @keyframes tenthCloudTranslateAnimationy {
+    from {
+      transform: translate(0%,0%);
+    }
+    to {
+      transform: translate(0%,180%);
+    }
+  }
+  @keyframes tenthCloudTranslateAnimationx {
+    0% {
+      transform: translate(0%,180%);
+    }
+    50% {
+      transform: translate(180%,180%);
+    }
+    100% {
+        transform: translate(0%,180%);
+      }
+  }
+  .tenthCloudFadeIn1{
+    animation: tenthCloudTranslateAnimationy 0.5s ease-in-out forwards;
+  }
+  .tenthCloudFadeIn2{
+    animation: tenthCloudTranslateAnimationx 12s ease-in-out infinite;
+  }
+
+
+
+  @keyframes resetAnimation {
+    0% {
+      transform: translate(0,100%);
+    }
+    100% {
+      transform: translate(0,0);
+    }
+  }
+  
+  .reset-animation {
+    animation: resetAnimation 1s ease-in-out forwards;
+  }
+  .nightBackGround{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(28, 28, 28);
+    position: absolute;
+    z-index: 0;
+  }
+
+
+
+  #star1{
+    width: 30px;
+    margin: 0;
+    left: 50px;
+    top: 200px;
+
+  }
+  #star2{
+    width: 50px;
+    margin: 0;
+    left: 400px;
+    top: 400px;
+
+  }
+  #star3{
+    width: 40px;
+    margin: 0;
+
+    left: 1000px;
+    top: 500px;
+
+  }
+  #star4{
+    width: 50px;
+    margin: 0;
+
+    left: 800px;
+    top: 50px;
+
+  }
+  #star5{
+    width: 20px;
+    margin: 0;
+
+    right: 400px;
+    top: 100px;
+
+  }
+  #star6{
+    width: 50px;
+    margin: 0;
+
+    left: 700px;
+    top: 700px;
+
+  }
+  #star7{
+    width: 30px;
+    margin: 0;
+
+    left: 1200px;
+    top: 700px;
+
+  }
+  #star8{
+    width: 50px;
+    margin: 0;
+
+    left: 900px;
+    top: 150px;
+
+  }
+  #star9{
+    width: 50px;
+    margin: 0;
+
+    left: 1400px;
+    top: 600px;
+
+  }
+  #star10{
+    width: 50px;
+    margin: 0;
+
+    left: 300px;
+    top: 200px;
+
+  }
+  #star11{
+    width: 50px;
+    margin: 0;
+
+    right: 200px;
+    top: 900px;
+
+  }
+  #star12{
+    width: 50px;
+    margin: 0;
+
+    left: 900px;
+    top: 300px;
+
+  }
+  #star13{
+    width: 50px;
+    margin: 0;
+
+    right: 600px;
+    top: 230px;
+
+  }
+  #star14{
+    width: 50px;
+    margin: 0;
+
+    right: 30px;
+    top: 20px;
+
+  }
+  #star15{
+    width: 50px;
+    margin: 0;
+
+    left: 1000px;
+    top: 20px;
+
+  }
+  
+  #moon{
+    width: 150px;
+    margin-top: -50px;
+    margin-left: 100px;
+
+  }
+
+
+  @keyframes sunTranslateAnimationy {
+    from {
+      transform:translate(0%,0%) rotate(0deg);
+    }
+    to {
+      transform:translate(0%,80%) rotate(0deg);
+    }
+  }
+
+  @keyframes sunTranslateAnimationx {
+    0% {
+        transform:translate(0%,80%) rotate(0deg) ;
+    }
+    50% { 
+        transform:translate(0%,80%) rotate(50deg) ;
+      }
+    100%{
+        transform:translate(0%,80%) rotate(0deg) ; 
+      }
+  }
+
+
+  .moon1{
+    animation: sunTranslateAnimationy 0.5s ease-in-out forwards;
+    
+  }
+  .moon2{
+    animation: sunTranslateAnimationx 50s ease-in-out infinite;
+    
+  }
+
+
+
+
+
+  #snow1{
+    width: 70px;
+    margin-top: -60px;
+  }
+
+  #snow2{
+    width: 70px;
+    margin-top: -60px;
+    left: 300px;
+  }
+
+   #snow3{
+    width: 70px;
+    margin-top: -60px;
+    left: 400px;
+  }
+   #snow4{
+    width: 70px;
+    margin-top: -60px;
+    left: 500px;
+  }
+   #snow5{
+    width: 70px;
+    margin-top: -60px;
+    left: 600px;
+  }
+   #snow6{
+    width: 70px;
+    margin-top: -60px;
+    left: 700px;
+  }
+   #snow7{
+    width: 70px;
+    margin-top: -60px;
+    left: 800px;
+  }
+   #snow8{
+    width: 70px;
+    margin-top: -60px;
+    left: 900px;
+  }
+   #snow9{
+    width: 70px;
+    margin-top: -60px;
+    left: 1000px;
+  }
+   #snow10{
+    width: 70px;
+    margin-top: -60px;
+    left: 1100px;
+  }
+   #snow11{
+    width: 70px;
+    margin-top: -60px;
+    left: 1200px;
+  }
+   #snow12{
+    width: 70px;
+    margin-top: -60px;
+    left: 1300px;
+  }
+   #snow13{
+    width: 70px;
+    margin-top: -60px;
+    left: 1400px;
+  }
+   #snow14{
+    width: 70px;
+    margin-top: -60px;
+    left: 1500px;
+  }
+   #snow15{
+    width: 70px;
+    margin-top: -60px;
+    left: 1600px;
+  }
+   #snow16{
+    width: 70px;
+    margin-top: -60px;
+    left: 550px;
+  }
+
+
+
+  @keyframes snowTranslateAnimation {
+    0% {
+        transform:translate(0%,0%) rotate(0deg) ;
+    }
+    50% { 
+        transform:translate(0%,800%) rotate(160deg) ;
+      }
+    100%{
+        transform:translate(0%,1600%) rotate(360deg) ; 
+      }
+  }
+
+  .firstSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 6s;
+    
+  }
+
+  .secondSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 1s;
+    
+  }
+
+
+  .thirdSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 4s;
+    
+  }
+
+  .fourthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 2s;
+    
+  }
+
+  .fifthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 1s;
+    
+  }
+  .sixthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 4s;
+    
+  }
+
+  .seventhSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 2s;
+    
+  }
+  .eightSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 5s;
+    
+  }
+
+  .ninthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 7s;
+    
+  }
+  .tenthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 3s;
+    
+  }
+
+  .eleventhSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 2s;
+    
+  }
+  .twelvthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 8s;
+    
+  }
+
+  .fourtenthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 3s;
+    
+  }
+  .fiftenthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 6s;
+    
+  }
+
+  .sixtenthSnowFadeIn2{
+    animation: snowTranslateAnimation 6s linear infinite;
+    animation-delay: 2s;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #rain1{
+    width: 70px;
+    margin-top: -60px;
+  }
+
+  #rain2{
+    width: 70px;
+    margin-top: -60px;
+    left: 300px;
+  }
+
+   #rain3{
+    width: 70px;
+    margin-top: -60px;
+    left: 400px;
+  }
+   #rain4{
+    width: 70px;
+    margin-top: -60px;
+    left: 500px;
+  }
+   #rain5{
+    width: 70px;
+    margin-top: -60px;
+    left: 600px;
+  }
+   #rain6{
+    width: 70px;
+    margin-top: -60px;
+    left: 700px;
+  }
+   #rain7{
+    width: 70px;
+    margin-top: -60px;
+    left: 800px;
+  }
+   #rain8{
+    width: 70px;
+    margin-top: -60px;
+    left: 900px;
+  }
+   #rain9{
+    width: 70px;
+    margin-top: -60px;
+    left: 1000px;
+  }
+   #rain10{
+    width: 70px;
+    margin-top: -60px;
+    left: 1100px;
+  }
+   #rain11{
+    width: 70px;
+    margin-top: -60px;
+    left: 1200px;
+  }
+   #rain12{
+    width: 70px;
+    margin-top: -60px;
+    left: 1300px;
+  }
+   #rain13{
+    width: 70px;
+    margin-top: -60px;
+    left: 1400px;
+  }
+   #rain14{
+    width: 70px;
+    margin-top: -60px;
+    left: 1500px;
+  }
+   #rain15{
+    width: 70px;
+    margin-top: -60px;
+    left: 1600px;
+  }
+   #rain16{
+    width: 70px;
+    margin-top: -60px;
+    left: 550px;
+  }
+
+
+
+
+  @keyframes rainTranslateAnimation {
+    0% {
+        transform:translate(0%,0%);
+    }
+    50% { 
+        transform:translate(0%,800%);
+      }
+    100%{
+        transform:translate(0%,1600%); 
+      }
+  }
+
+  .firstRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 1s;
+    
+  }
+
+  .secondRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 8s;
+    
+  }
+
+  .thirdRainFadeIn2{
+    animation: rainTranslateAnimation 2s linear infinite;
+    animation-delay: 4s;
+    
+  }
+
+  .fourthRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 3s;
+    
+  }
+
+  .fifthRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 7s;
+    
+  }
+
+  .sixthRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 9s;
+    
+  }
+
+  .seventhRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 6s;
+    
+  }
+
+  .eightRainFadeIn2{
+    animation: rainTranslateAnimation 4s linear infinite;
+    animation-delay: 11s;
+    
+  }
+
+  .ninthRainFadeIn2{
+    animation: rainTranslateAnimation 5s linear infinite;
+    animation-delay: 2s;
+    
+  }
+
+  .tenthRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 16s;
+    
+  }
+
+  .eleventhRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 7s;
+    
+  }
+
+  .twelvthRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 2s;
+    
+  }
+
+  .thirtenththRainFadeIn2{
+    animation: rainTranslateAnimation 3s linear infinite;
+    animation-delay: 14s;
+    
+  }
+
+  .fourthenthRainFadeIn2{
+    animation: rainTranslateAnimation 2s linear infinite;
+    animation-delay: 6s;
+    
+  }
+
+  .fiftenthFadeIn2{
+    animation: rainTranslateAnimation 4s linear infinite;
+    animation-delay: 13s;
+    
+  }
+
+  .sixtenthRainFadeIn2{
+    animation: rainTranslateAnimation 1s linear infinite;
+    animation-delay: 4s;
+    
+  }

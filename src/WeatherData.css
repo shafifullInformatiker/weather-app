@@ -1,0 +1,27 @@
+.weatherData{
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 300px;
+text-align: left;
+background-color: rgb(174, 174, 174);
+padding: 30px;
+z-index: 3;
+}
+
+.weatherData > div{
+
+    width: 1200px;
+    margin: 0 auto;
+}
+.weatherData > div > div{
+    float: left;
+    width: 400px;
+    background-color: rgb(174, 174, 174);
+    height: 250px;
+}
+
+.weatherData li{
+    line-height: 40px;
+}
+
